@@ -1,7 +1,7 @@
 Crosswalk-app-tools-backend-ios
 ===================
 
-Command line tools to create and package Crosswalk applications. The license for this project is Apache License
+The ios support backend for command line tools to create and package Crosswalk applications. The license for this project is Apache License
 Version 2.0, please refer to the LICENSE-APACHE-V2 included with the package.
 
 Crosswalk-app-tools is in very early stages of development, and not suitable for use in a production environment. "Releases" and announcements are made available as a technology preview only. No packages are being published at this time, but git tags serve as reference points for release milestones.
@@ -12,7 +12,7 @@ Mac OS X is the only tested platform. Node.js, the Xcode command line tools, the
 
 1. Download Crosswalk app tools: `git clone https://github.com/crosswalk-project/crosswalk-app-tools.git`
 2. Initialize the Crosswalk app tools: `cd crosswalk-app-tools`, then `npm install`
-3. Checkout the iOS backend: `cd node_modules`, then `git clone https://github.com/takethathe/crosswalk-app-tools-backend-ios.git`
+3. Checkout the iOS backend: `cd node_modules`, then `git clone https://github.com/crosswalk-project/crosswalk-app-tools-os.git crosswalk-app-tools-backend-ios`
 2. Install dependencies: `cd crosswalk-app-tools-backend-ios`, then `npm install`, and `cd ../..`
 3. The main script is `crosswalk-app-tools/bin/crosswalk-app`. Set environment PATH or invoke with directory.
 
