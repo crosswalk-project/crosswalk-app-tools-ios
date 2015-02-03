@@ -1,0 +1,30 @@
+{
+  "name": "crosswalk-app-tools-backend-ios",
+  "version": "0.0.1",
+  "description": "Crosswalk App Tools iOS backend",
+  "author": "Xinchao He <xinchao.he@intel.com>",
+  "license": "APACHE-V2",
+  "main": "index.js",
+  "bin": {
+    "crosswalk-app-ios": "./bin/crosswalk-app-ios"
+  },
+  "dependencies": {
+    "app-parser": "~0.1.5",
+    "ipa-build": "~0.4.0",
+    "plist": "~1.1.0",
+    "shelljs": "~0.3.0",
+    "xcode": "~0.6.7"
+  },
+  "devDependencies": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:crosswalk-project/crosswalk-app-tools.git"
+  },
+  "keywords": [
+    "crosswalk",
+    "ipa",
+    "iOS"
+  ]
+}

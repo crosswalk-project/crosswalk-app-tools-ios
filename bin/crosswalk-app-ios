@@ -1,0 +1,42 @@
+#!/usr/bin/env node
+
+// Copyright © 2014 Intel Corporation. All rights reserved.
+// Use  of this  source  code is  governed by  an Apache v2
+// license that can be found in the LICENSE-APACHE-V2 file.
+
+var Shell = require ("shelljs");
+var Fs = require ('fs');
+var Path = require ('path');
+var iOSProject = require('../lib/iOSProject');
+
+function log(msg) {
+    if (typeof(msg) != 'undefined' && msg != null)
+        console.log(msg);
+}
+
+var Project = new iOSProject(null, console, null);
+
+if (process.argv.length < 3) {
+    console.log("crosswalk-app-ios [create|build] [projectId]");
+    return;
+}
+
+var cmd = process.argv[2];
+if (cmd) {
+    switch(cmd){
+    case 'create':
+        if (process.argv.length < 4) {
+            console.log("Usage: crosswalk-app-ios create projectId");
+            break;
+        }
+        var packageId = process.argv[3]
+        Project.generate(packageId, log);
+        break;
+    case 'build':
+        Project.build(null, null, log);
+        break;
+    default:
+    };
+} else {
+    console.log("Command error!");
+}
