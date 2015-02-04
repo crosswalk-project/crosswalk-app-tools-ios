@@ -14,7 +14,7 @@ function log(msg) {
         console.log(msg);
 }
 
-var Project = new iOSProject(null, console, null);
+var Project = new iOSProject();
 
 if (process.argv.length < 3) {
     console.log("crosswalk-app-ios [create|build] [projectId]");
