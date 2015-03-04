@@ -8,13 +8,30 @@ var Shell = require ("shelljs");
 var Fs = require ('fs');
 var Path = require ('path');
 var iOSProject = require('../lib/iOSProject');
+var PlatformBase = require('../lib/PlatformBase');
 
 function log(msg) {
     if (typeof(msg) != 'undefined' && msg != null)
         console.log(msg);
 }
 
-var Project = new iOSProject();
+function PlatformData(root_dir, packageId) {
+    var application = {
+        'packageId': packageId,
+        'output': {
+            'error': console.log,
+            'warning': console.log,
+            'log': console.log
+        },
+        'pkgPath': Path.join(root_dir, 'pkg'),
+        'prjPath': Path.join(root_dir, 'prj'),
+        'appPath': Path.join(root_dir, 'app')
+    };
+    return {
+        'platformId': 'ios',
+        'application': application
+    };
+}
 
 if (process.argv.length < 3) {
     console.log("crosswalk-app-ios [create|build] [projectId]");
@@ -30,9 +47,14 @@ if (cmd) {
             break;
         }
         var packageId = process.argv[3]
-        Project.generate(packageId, log);
+        var Project = iOSProject(PlatformBase,
+                                 PlatformData(Path.join(Shell.pwd(), packageId),
+                                              packageId));
+        Project.generate(null, log);
         break;
     case 'build':
+        var packageId = Path.basename(Shell.pwd());
+        var Project = iOSProject(PlatformBase, PlatformData(Shell.pwd(), packageId));
         Project.build(null, null, log);
         break;
     default:
