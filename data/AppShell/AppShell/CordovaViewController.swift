@@ -1,12 +1,13 @@
-// Copyright (c) 2014 Intel Corporation. All rights reserved.
+// Copyright (c) 2015 Intel Corporation. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import Cordova
 import UIKit
 import WebKit
 import XWalkView
 
-class ViewController: UIViewController {
+class ViewController: CDVViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,12 +21,19 @@ class ViewController: UIViewController {
         }
 
         let webview = WKWebView(frame: view.frame, configuration: WKWebViewConfiguration())
+        webview.navigationDelegate = self
         webview.scrollView.bounces = false
         view.addSubview(webview)
 
         for name in xwalk_extensions {
-            if let ext: AnyObject = XWalkExtensionFactory.createExtension(name) {
-                webview.loadExtension(ext, namespace: name)
+            var ext: AnyObject? = nil;
+            if name == "xwalk.cordova" {
+                ext = XWalkExtensionFactory.createExtension(name, initializer: "initWithViewController:", arguments: [self])
+            } else {
+                ext = XWalkExtensionFactory.createExtension(name)
+            }
+            if let validExtension: AnyObject = ext {
+                webview.loadExtension(validExtension, namespace: name)
             }
         }
 

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E20C8811A7A8C7D009B3E30 /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E20C8801A7A8C7D009B3E30 /* XWalkView.framework */; };
-		9E20C8821A7A8C7D009B3E30 /* XWalkView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E20C8801A7A8C7D009B3E30 /* XWalkView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AB165FEF1AE7839B00B11D0C /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB165FEE1AE7839B00B11D0C /* XWalkView.framework */; };
+		ABD7C69B1AE4A2780000D0E0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = ABD7C69A1AE4A2780000D0E0 /* www */; };
 		ABE516AA1A00ADDE0025A92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE516A21A00ADDE0025A92E /* AppDelegate.swift */; };
 		ABE516AC1A00ADDE0025A92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE516A61A00ADDE0025A92E /* Main.storyboard */; };
 		ABE516AD1A00ADDE0025A92E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE516A81A00ADDE0025A92E /* Images.xcassets */; };
@@ -16,13 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9E20C8831A7A8C7D009B3E30 /* Embed Frameworks */ = {
+		EE0E490F1A5C72DB002D95B8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9E20C8821A7A8C7D009B3E30 /* XWalkView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,8 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9E20C8801A7A8C7D009B3E30 /* XWalkView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XWalkView.framework; path = Libs/XWalkView.framework; sourceTree = "<group>"; };
+		AB165FEE1AE7839B00B11D0C /* XWalkView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XWalkView.framework; path = Libs/XWalkView.framework; sourceTree = "<group>"; };
 		AB603B9819EA58CB00DECF78 /* AppShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD7C69A1AE4A2780000D0E0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		ABE516A21A00ADDE0025A92E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppShell/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		ABE516A71A00ADDE0025A92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		ABE516A81A00ADDE0025A92E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppShell/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -44,30 +44,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E20C8811A7A8C7D009B3E30 /* XWalkView.framework in Frameworks */,
+				AB165FEF1AE7839B00B11D0C /* XWalkView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9E20C8841A7A8DBC009B3E30 /* Resources */ = {
+		AB165FF01AE79A2700B11D0C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
-			path = www;
 			sourceTree = "<group>";
 		};
 		AB603B8F19EA58CB00DECF78 = {
 			isa = PBXGroup;
 			children = (
-				9E20C8801A7A8C7D009B3E30 /* XWalkView.framework */,
-				9E20C8841A7A8DBC009B3E30 /* Resources */,
+				AB165FEE1AE7839B00B11D0C /* XWalkView.framework */,
+				ABD7C69A1AE4A2780000D0E0 /* www */,
 				ABE516A21A00ADDE0025A92E /* AppDelegate.swift */,
 				ABE516A61A00ADDE0025A92E /* Main.storyboard */,
 				ABE516A81A00ADDE0025A92E /* Images.xcassets */,
 				ABE516A91A00ADDE0025A92E /* ViewController.swift */,
+				AB165FF01AE79A2700B11D0C /* Resources */,
 				AB603B9B19EA58CB00DECF78 /* Supporting Files */,
 				AB603B9919EA58CB00DECF78 /* Products */,
 			);
@@ -99,7 +99,7 @@
 				AB603B9419EA58CB00DECF78 /* Sources */,
 				AB603B9519EA58CB00DECF78 /* Frameworks */,
 				AB603B9619EA58CB00DECF78 /* Resources */,
-				9E20C8831A7A8C7D009B3E30 /* Embed Frameworks */,
+				EE0E490F1A5C72DB002D95B8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABD7C69B1AE4A2780000D0E0 /* www in Resources */,
 				ABE516AC1A00ADDE0025A92E /* Main.storyboard in Resources */,
 				ABE516AD1A00ADDE0025A92E /* Images.xcassets in Resources */,
 			);
@@ -269,6 +270,7 @@
 					"$(PROJECT_DIR)/Libs",
 				);
 				INFOPLIST_FILE = AppShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -285,6 +287,7 @@
 					"$(PROJECT_DIR)/Libs",
 				);
 				INFOPLIST_FILE = AppShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
