@@ -51,13 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AB165FF01AE79A2700B11D0C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		AB603B8F19EA58CB00DECF78 = {
 			isa = PBXGroup;
 			children = (
@@ -67,7 +60,6 @@
 				ABE516A61A00ADDE0025A92E /* Main.storyboard */,
 				ABE516A81A00ADDE0025A92E /* Images.xcassets */,
 				ABE516A91A00ADDE0025A92E /* ViewController.swift */,
-				AB165FF01AE79A2700B11D0C /* Resources */,
 				AB603B9B19EA58CB00DECF78 /* Supporting Files */,
 				AB603B9919EA58CB00DECF78 /* Products */,
 			);
