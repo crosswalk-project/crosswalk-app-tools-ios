@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB165FEF1AE7839B00B11D0C /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB165FEE1AE7839B00B11D0C /* XWalkView.framework */; };
+		ABCAA63D1AF221BD00DFB9E8 /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB165FEE1AE7839B00B11D0C /* XWalkView.framework */; };
+		ABCAA63E1AF221BD00DFB9E8 /* XWalkView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB165FEE1AE7839B00B11D0C /* XWalkView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABD7C69B1AE4A2780000D0E0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = ABD7C69A1AE4A2780000D0E0 /* www */; };
 		ABE516AA1A00ADDE0025A92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE516A21A00ADDE0025A92E /* AppDelegate.swift */; };
 		ABE516AC1A00ADDE0025A92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE516A61A00ADDE0025A92E /* Main.storyboard */; };
@@ -16,12 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		EE0E490F1A5C72DB002D95B8 /* Embed Frameworks */ = {
+		ABCAA63F1AF221BD00DFB9E8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				ABCAA63E1AF221BD00DFB9E8 /* XWalkView.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB165FEF1AE7839B00B11D0C /* XWalkView.framework in Frameworks */,
+				ABCAA63D1AF221BD00DFB9E8 /* XWalkView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +93,7 @@
 				AB603B9419EA58CB00DECF78 /* Sources */,
 				AB603B9519EA58CB00DECF78 /* Frameworks */,
 				AB603B9619EA58CB00DECF78 /* Resources */,
-				EE0E490F1A5C72DB002D95B8 /* Embed Frameworks */,
+				ABCAA63F1AF221BD00DFB9E8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
