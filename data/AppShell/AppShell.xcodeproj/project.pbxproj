@@ -10,6 +10,8 @@
 		ABCAA63D1AF221BD00DFB9E8 /* XWalkView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB165FEE1AE7839B00B11D0C /* XWalkView.framework */; };
 		ABCAA63E1AF221BD00DFB9E8 /* XWalkView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB165FEE1AE7839B00B11D0C /* XWalkView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABD7C69B1AE4A2780000D0E0 /* www in Resources */ = {isa = PBXBuildFile; fileRef = ABD7C69A1AE4A2780000D0E0 /* www */; };
+		ABDBCE631B79A0B300DB777D /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABDBCE611B79A0A800DB777D /* Cordova.framework */; };
+		ABDBCE641B79A0B300DB777D /* Cordova.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABDBCE611B79A0A800DB777D /* Cordova.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ABE516AA1A00ADDE0025A92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE516A21A00ADDE0025A92E /* AppDelegate.swift */; };
 		ABE516AC1A00ADDE0025A92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE516A61A00ADDE0025A92E /* Main.storyboard */; };
 		ABE516AD1A00ADDE0025A92E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE516A81A00ADDE0025A92E /* Images.xcassets */; };
@@ -24,6 +26,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				ABCAA63E1AF221BD00DFB9E8 /* XWalkView.framework in Embed Frameworks */,
+				ABDBCE641B79A0B300DB777D /* Cordova.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,6 +37,7 @@
 		AB165FEE1AE7839B00B11D0C /* XWalkView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XWalkView.framework; path = Libs/XWalkView.framework; sourceTree = "<group>"; };
 		AB603B9819EA58CB00DECF78 /* AppShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD7C69A1AE4A2780000D0E0 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		ABDBCE611B79A0A800DB777D /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = Libs/Cordova.framework; sourceTree = "<group>"; };
 		ABE516A21A00ADDE0025A92E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppShell/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		ABE516A71A00ADDE0025A92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		ABE516A81A00ADDE0025A92E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AppShell/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -47,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCAA63D1AF221BD00DFB9E8 /* XWalkView.framework in Frameworks */,
+				ABDBCE631B79A0B300DB777D /* Cordova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +61,7 @@
 		AB603B8F19EA58CB00DECF78 = {
 			isa = PBXGroup;
 			children = (
+				ABDBCE611B79A0A800DB777D /* Cordova.framework */,
 				AB165FEE1AE7839B00B11D0C /* XWalkView.framework */,
 				ABD7C69A1AE4A2780000D0E0 /* www */,
 				ABE516A21A00ADDE0025A92E /* AppDelegate.swift */,

@@ -4,6 +4,22 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/GCDWebServer.h</key>
+		<data>
+		pTi9d5GJbGXW2WHKD1+pmzzy6Ys=
+		</data>
+		<key>Headers/GCDWebServerDataResponse.h</key>
+		<data>
+		yXi8k59T9xWB8+27MYhqpGZILew=
+		</data>
+		<key>Headers/GCDWebServerRequest.h</key>
+		<data>
+		lI1XWYnvT3XTBHoLm/EJcFi+2xQ=
+		</data>
+		<key>Headers/GCDWebServerResponse.h</key>
+		<data>
+		mHPapSzdHajz9tcSZQGcwg0DZwc=
+		</data>
 		<key>Headers/XWalkDelegate.h</key>
 		<data>
 		hPjMP+HgxpgczaHKMxNMaCwAwzs=
@@ -12,25 +28,21 @@
 		<data>
 		+2tgxGHhmz0poI3bNAmUkokz3Ik=
 		</data>
-		<key>Headers/XWalkHttpServer.h</key>
-		<data>
-		jHSB3JL72GZth/rDGsKOkBMXdYg=
-		</data>
 		<key>Headers/XWalkInvocation.h</key>
 		<data>
 		cEhmLt7u1MGV6TXn1A6pWWWdVP0=
 		</data>
 		<key>Headers/XWalkView-Swift.h</key>
 		<data>
-		AXnAESM8i75FgF81Ka4UG8GhKTM=
+		9z5NFOeCWNU449Ud1Z0pOHD4A2g=
 		</data>
 		<key>Headers/XWalkView.h</key>
 		<data>
-		xOwWKtkjt+i7b9d8FsQoUm4U2DI=
+		ss7Jx90LLxMrXfMV6amVuy+SBwM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		cD7tNJqdfYUPckqfhAF8K1ncy6U=
+		/hM/5CyC3cwksHPEVV0KuxvhARI=
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -38,7 +50,7 @@
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm.swiftmodule</key>
 		<data>
-		bAZGV1BTMjH7DIsuJKqizGtjptU=
+		gCzogYn+Y36LRGAP8nu8sUmHwCU=
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +58,7 @@
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		odPakyOg5+zRm7MYPGHjJrLOZqg=
+		ErCxFSZOlXKKpa0u94Ki2Td5n3E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +71,22 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/GCDWebServer.h</key>
+		<data>
+		pTi9d5GJbGXW2WHKD1+pmzzy6Ys=
+		</data>
+		<key>Headers/GCDWebServerDataResponse.h</key>
+		<data>
+		yXi8k59T9xWB8+27MYhqpGZILew=
+		</data>
+		<key>Headers/GCDWebServerRequest.h</key>
+		<data>
+		lI1XWYnvT3XTBHoLm/EJcFi+2xQ=
+		</data>
+		<key>Headers/GCDWebServerResponse.h</key>
+		<data>
+		mHPapSzdHajz9tcSZQGcwg0DZwc=
+		</data>
 		<key>Headers/XWalkDelegate.h</key>
 		<data>
 		hPjMP+HgxpgczaHKMxNMaCwAwzs=
@@ -67,21 +95,17 @@
 		<data>
 		+2tgxGHhmz0poI3bNAmUkokz3Ik=
 		</data>
-		<key>Headers/XWalkHttpServer.h</key>
-		<data>
-		jHSB3JL72GZth/rDGsKOkBMXdYg=
-		</data>
 		<key>Headers/XWalkInvocation.h</key>
 		<data>
 		cEhmLt7u1MGV6TXn1A6pWWWdVP0=
 		</data>
 		<key>Headers/XWalkView-Swift.h</key>
 		<data>
-		AXnAESM8i75FgF81Ka4UG8GhKTM=
+		9z5NFOeCWNU449Ud1Z0pOHD4A2g=
 		</data>
 		<key>Headers/XWalkView.h</key>
 		<data>
-		xOwWKtkjt+i7b9d8FsQoUm4U2DI=
+		ss7Jx90LLxMrXfMV6amVuy+SBwM=
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -89,7 +113,7 @@
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm.swiftmodule</key>
 		<data>
-		bAZGV1BTMjH7DIsuJKqizGtjptU=
+		gCzogYn+Y36LRGAP8nu8sUmHwCU=
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -97,7 +121,7 @@
 		</data>
 		<key>Modules/XWalkView.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		odPakyOg5+zRm7MYPGHjJrLOZqg=
+		ErCxFSZOlXKKpa0u94Ki2Td5n3E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
