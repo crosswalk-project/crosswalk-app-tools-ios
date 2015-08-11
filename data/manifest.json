@@ -1,7 +1,7 @@
 {
   "name": "iOSSampleApp",
-  "crosswalk_app_version": "0.0.1",
+  "xwalk_app_version": "0.0.1",
   "start_url": "index.html",
-  "crosswalk_package_id": "com.sample.ios",
-  "crosswalk_target_platforms": "ios"
+  "xwalk_package_id": "com.sample.ios",
+  "xwalk_target_platforms": "ios"
 }
