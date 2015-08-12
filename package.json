@@ -1,28 +1,32 @@
 {
   "name": "crosswalk-app-tools-backend-ios",
   "version": "0.0.1",
-  "description": "Crosswalk App Tools iOS backend",
-  "author": "Xinchao He <xinchao.he@intel.com>",
-  "license": "APACHE-V2",
+  "description": "Crosswalk App Tools iOS Backend",
+  "author": "Jonathan Dong <jonathan.dong@intel.com>",
+  "license": "SEE LICENSE IN LICENSE-APACHE-V2",
   "main": "index.js",
-  "bin": {
-    "crosswalk-app-ios": "./bin/crosswalk-app-ios"
-  },
   "dependencies": {
     "plist": "~1.1.0",
     "shelljs": "~0.3.0",
     "xcode": "~0.6.7"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:crosswalk-project/crosswalk-app-tools.git"
+    "url": "https://github.com/crosswalk-project/crosswalk-app-tools.git"
   },
   "keywords": [
     "crosswalk",
+    "crosswalk-app-tools",
+    "packaging",
     "ipa",
     "iOS"
-  ]
+  ],
+  "bugs": {
+    "url": "https://crosswalk-project.org/jira/"
+  },
+  "homepage": "https://crosswalk-project.org",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
