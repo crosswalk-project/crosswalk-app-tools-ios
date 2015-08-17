@@ -1,6 +1,0 @@
-framework module Cordova {
-  umbrella header "Cordova.h"
-
-  export *
-  module * { export * }
-}
