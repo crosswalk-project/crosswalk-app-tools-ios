@@ -1,6 +1,6 @@
 {
   "name": "crosswalk-app-tools-backend-ios",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Crosswalk App Tools iOS Backend",
   "author": "Jonathan Dong <jonathan.dong@intel.com>",
   "license": "SEE LICENSE IN LICENSE-APACHE-V2",
